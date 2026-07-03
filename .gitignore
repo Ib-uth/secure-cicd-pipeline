@@ -1,0 +1,8 @@
+.env
+*.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+vendor/
+node_modules/
+storage/logs/
