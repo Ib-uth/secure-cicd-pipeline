@@ -6,3 +6,19 @@ terraform.tfstate.backup
 vendor/
 node_modules/
 storage/logs/
+
+# Laravel app
+app/vendor/
+app/node_modules/
+app/.env
+app/.env.backup
+app/.phpunit.result.cache
+app/Homestead.json
+app/Homestead.yaml
+app/npm-debug.log
+app/yarn-error.log
+app/auth.json
+app/storage/*.key
+app/storage/logs/
+app/bootstrap/cache/*.php
+!app/bootstrap/cache/.gitkeep
